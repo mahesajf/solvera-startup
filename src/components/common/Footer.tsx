@@ -158,7 +158,7 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
               Standards
             </span>
             <p className="text-xs text-[#A89F95] leading-relaxed">
-              Engineered with strict TypeScript, WCAG AA compliance, and modular Infrastructure as Code. Built in Jakarta, Indonesia.
+              Engineered with strict TypeScript, responsive design systems, and modular Infrastructure as Code. Built in Jakarta, Indonesia.
             </p>
             <div className="mt-2 p-3 rounded-lg bg-[#1F1B16] border border-[#2E2721] text-xs text-[#D8CFBF]">
               <span className="block font-medium text-white mb-0.5">Anthropic Claude Program</span>
@@ -181,8 +181,6 @@ export const Footer: React.FC<FooterProps> = ({ onNavigate }) => {
             </a>
             <span>·</span>
             <span>Jakarta, ID</span>
-            <span>·</span>
-            <span>WCAG AA Tested</span>
           </div>
         </div>
       </div>

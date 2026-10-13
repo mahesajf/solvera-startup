@@ -1,4 +1,4 @@
-import { FAQItem, ServiceDetail, TeamMember } from '../types';
+import { FAQItem, ServiceDetail } from '../types';
 
 export const COMPANY_INFO = {
   name: 'Solvera Technology Labs',
@@ -101,7 +101,7 @@ export const SERVICES_DATA: ServiceDetail[] = [
     ],
     typicalOutcomes: [
       'Sub-second first contentful paint and green Core Web Vitals across both mobile and desktop viewports.',
-      'WCAG AA accessible markup that protects your business and welcomes all users.',
+      'Accessible, high-performance web interfaces that protect your brand and welcome all users.',
       'Strict TypeScript types that prevent runtime crashes and simplify onboarding new engineers.',
       'Clean separation between presentation and business logic for long-term codebase health.',
     ],
@@ -152,33 +152,6 @@ export const FAQS_DATA: FAQItem[] = [
     answer:
       'Following our initial discovery review and agreement on scope, we typically begin active sprint onboarding within 3 to 5 business days.',
     category: 'General',
-  },
-];
-
-export const TEAM_MEMBERS: TeamMember[] = [
-  {
-    id: 'member-1',
-    name: '[NAME]',
-    role: 'Principal Cloud Architect',
-    focus: 'AWS/GCP infrastructure, Terraform, and Kubernetes orchestration.',
-  },
-  {
-    id: 'member-2',
-    name: '[NAME]',
-    role: 'Lead Systems & DevOps Engineer',
-    focus: 'CI/CD automation, Docker pipelines, and cluster observability.',
-  },
-  {
-    id: 'member-3',
-    name: '[NAME]',
-    role: 'Senior Full-Stack Web Engineer',
-    focus: 'TypeScript, React architectures, performance, and API design.',
-  },
-  {
-    id: 'member-4',
-    name: '[NAME]',
-    role: 'Frontend & Accessibility Specialist',
-    focus: 'Design systems, WCAG AA compliance, and responsive layouts.',
   },
 ];
 

@@ -30,13 +30,6 @@ export interface ServiceDetail {
   ctaRoute: AppRoute;
 }
 
-export interface TeamMember {
-  id: string;
-  name: string;
-  role: string;
-  focus: string;
-}
-
 export interface ContactFormData {
   name: string;
   email: string;

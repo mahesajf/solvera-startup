@@ -1,5 +1,5 @@
 import React from 'react';
-import { COMPANY_INFO, CORE_VALUES, TECH_STACK_CATEGORIES, TEAM_MEMBERS } from '../data/companyData';
+import { COMPANY_INFO, CORE_VALUES, TECH_STACK_CATEGORIES } from '../data/companyData';
 import { Button } from '../components/common/Button';
 import { SEO } from '../components/common/SEO';
 import { AppRoute, SeoConfig } from '../types';
@@ -201,50 +201,6 @@ export const AboutPage: React.FC<AboutPageProps> = ({ onNavigate }) => {
                       </li>
                     ))}
                   </ul>
-                </div>
-              ))}
-            </div>
-          </div>
-
-          {/* Team Section with Placeholders */}
-          <div className="mb-20">
-            <div className="max-w-2xl mb-12">
-              <span className="text-xs font-semibold uppercase tracking-wider text-[#FF4D00] block mb-2">
-                Engineering Team
-              </span>
-              <h2 className="text-fluid-h2 font-bold tracking-tight text-[#141210] mb-3 text-balance">
-                Senior Engineers Focused on Delivery
-              </h2>
-              <p className="text-sm text-[#5C554E]">
-                Every engagement is staffed by practitioners with direct production system experience.
-              </p>
-            </div>
-
-            {/* Team grid with [NAME] and [ROLE] placeholders */}
-            <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-              {TEAM_MEMBERS.map((member) => (
-                <div
-                  key={member.id}
-                  className="bg-white p-6 rounded-xl border border-[#E6DFD5] shadow-xs flex flex-col justify-between"
-                >
-                  <div>
-                    {/* Neutral Avatar Placeholder */}
-                    <div className="w-14 h-14 rounded-full bg-[#FAF8F5] border border-[#E6DFD5] flex items-center justify-center text-[#5C554E] font-mono text-sm font-semibold mb-4">
-                      {member.name}
-                    </div>
-                    <span className="text-base font-bold text-[#141210] block mb-1">
-                      {member.name}
-                    </span>
-                    <span className="text-xs font-medium text-[#FF4D00] block mb-3">
-                      {member.role}
-                    </span>
-                    <p className="text-xs text-[#5C554E] leading-relaxed">
-                      {member.focus}
-                    </p>
-                  </div>
-                  <div className="mt-4 pt-3 border-t border-[#F0EAE1] text-[11px] text-[#8A8177]">
-                    Jakarta, Indonesia
-                  </div>
                 </div>
               ))}
             </div>
