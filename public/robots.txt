@@ -1,0 +1,6 @@
+# robots.txt for Solvera Technology Labs
+User-agent: *
+Allow: /
+
+# Sitemap
+Sitemap: https://solvera-tech.com/sitemap.xml
